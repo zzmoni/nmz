@@ -1,1 +1,3 @@
 # nmz
+
+npm i
