@@ -46,8 +46,16 @@ a:hover {
   color: var(--grey-900);
 }
 
+h1 {
+  font-size: clamp(1.5rem, 2vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 1.3vw, 2.5rem);
+}
+
 p, li {
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 2vw, 1rem);
   color: var(--grey-900);
 }
 
