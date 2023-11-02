@@ -1,0 +1,56 @@
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 0 0.5rem; /* Additional body style */
+}
+
+body {
+  color: var(--grey-600);
+  background: var(--background);
+}
+
+/* html {
+  --background: #fafafa;
+  --grey-200: #222222;
+  --grey-600: #000000;
+  --grey-900: #111111;
+
+  --toggler-color:#6a6a6a;
+  --blue-green: #3a46c9;
+}
+
+html.dark {
+  --background: #1d1f21;
+  --grey-200: #eaeaea;
+  --grey-600: #ffffff;
+  --grey-900: #fafafa;
+
+  --toggler-color:#6b6b6b;
+  --blue-green: #2aa87c;
+} */
+
+html {
+  --background: #1d1f20;
+  --grey-200: #eaeaea;
+  --grey-600: #ffffff;
+  --grey-900: #fafafa;
+
+  --toggler-color:#6b6b6b;
+  --blue-green: #2aa87c;
+}
+
+a {
+  color: var(--blue-green);
+}
+
+a:hover {
+  color: var(--grey-900);
+}
+
+p, li {
+  font-size: 1rem;
+  color: var(--grey-900);
+}
+
+li {
+  margin: 1rem 0;
+}

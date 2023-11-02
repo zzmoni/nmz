@@ -1,0 +1,39 @@
+---
+export interface Props {
+  url: string;
+  bookImg: string;
+}
+const { url, bookImg } = Astro.props;
+---
+
+<!-- when I have a masonry solution (or when grid masonry comes out!) remember to clean up the content class flex -->
+<article class="card">
+  <div class="imgDiv">
+    <a class="cardlink" href={url} target="_blank">
+      <img
+        src={bookImg}
+        class="work__picture"
+        alt="#"
+      />
+    </a>
+  </div>
+</article>
+
+
+<style lang="scss">
+  .imgDiv {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .imgDiv img {
+    width: 100%;
+    border-radius: 20px;
+    transition: transform .5s ease;
+  }
+
+  .imgDiv:hover img {
+    transform: scale(1.05);
+  }
+
+</style>

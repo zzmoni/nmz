@@ -1,0 +1,22 @@
+---
+import BooksCard from "./BooksCard.astro";
+
+import booksPic from "../data/booksPic.json";
+---
+
+<div class="grid">
+    {
+      booksPic.map(({ url, bookImg }) => (
+        <BooksCard {url} {bookImg}/>
+      ))
+    }
+</div>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    gap: 30px;
+  }
+</style>

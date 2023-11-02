@@ -1,0 +1,76 @@
+---
+import Main from "../layouts/Main.astro";
+import Books from "../components/Books.astro";
+
+const profilePicture = "/logo.svg";
+---
+
+<Main title="zzm">
+  <div class="profile__details">
+    <div class="profile">
+      <a class="pic" href="/">
+        <img
+          src={profilePicture}
+          class="profile__picture"
+          alt="logo"
+          width="80px"
+          height="80px"
+        />
+      </a>
+       <div class="main_content">
+         <h1>hello!</h1>
+         <h2>:)</h2>
+       </div>
+    </div>
+
+    <div class="books">
+      <p>
+        ✿✿✿ gl books/novels i've read ✿✿✿
+      </p>
+    </div>
+  </div>
+
+  <Books />
+
+</Main>
+
+<style>
+  .profile {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 5rem 0 3rem 0;
+  }
+
+  .main_content > h1, .books p {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .profile__details {
+    flex: 1 0 300px;
+  }
+
+  .profile__picture {
+    /* border-radius: 50%; */
+    margin: 0 0.5rem 1rem 0;
+  }
+
+  .books p {
+    font-size: 2.3rem;
+  }
+
+  a {
+    color: var(--blue-green);
+    padding: 0.5rem 2rem;
+    padding-left: 0rem;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  .pic {
+    padding: 0;
+    border-radius: 0;
+  }
+
+</style>

@@ -1,0 +1,53 @@
+---
+// import the type utility for the markdown layout props
+import type { MarkdownLayoutProps } from "astro";
+// import the base layout: Main.astro
+import Main from "./Main.astro";
+
+// defined the Props type
+type Props = MarkdownLayoutProps<{
+  // Define the expected frontmatter props here
+  cover: string;
+  title: string;
+}>;
+
+// get properties from the markdown frontmatter
+const { cover, title } = Astro.props.frontmatter;
+---
+
+<Main title="zzm">
+  <main>
+    <div>
+      <figure class="figure">
+        <img
+          src={cover}
+          alt={title}
+        />
+      </figure>
+    </div>
+
+    <slot />
+  </main>
+</Main>
+
+<style>
+  main {
+    max-width: 30rem;
+    margin: auto;
+  }
+
+  h1 + h2 {
+    margin-bottom: 3rem;
+  }
+
+  .figure {
+    margin: 0;
+    padding: 3rem 0;
+  }
+
+  .figure img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+</style>
