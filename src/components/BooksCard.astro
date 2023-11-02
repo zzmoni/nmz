@@ -9,7 +9,7 @@ const { url, bookImg } = Astro.props;
 <!-- when I have a masonry solution (or when grid masonry comes out!) remember to clean up the content class flex -->
 <article class="card">
   <div class="imgDiv">
-    <a class="cardlink" href={url} target="_blank">
+    <a class="cardlink" href={url}>
       <img
         src={bookImg}
         class="work__picture"
@@ -29,7 +29,7 @@ const { url, bookImg } = Astro.props;
   .imgDiv img {
     width: 100%;
     border-radius: 20px;
-    transition: transform .5s ease;
+    transition: transform .2s ease;
   }
 
   .imgDiv:hover img {
