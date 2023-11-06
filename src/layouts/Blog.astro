@@ -1,8 +1,12 @@
 ---
 // import the type utility for the markdown layout props
 import type { MarkdownLayoutProps } from "astro";
+
 // import the base layout: Main.astro
 import Main from "./Main.astro";
+
+// import header
+import Header from "../components/Header.astro";
 
 // defined the Props type
 type Props = MarkdownLayoutProps<{
@@ -17,6 +21,8 @@ const { cover, title } = Astro.props.frontmatter;
 
 <Main title="zzm">
   <main>
+    <Header />
+
     <div>
       <figure class="figure">
         <img
@@ -42,7 +48,7 @@ const { cover, title } = Astro.props.frontmatter;
 
   .figure {
     margin: 0;
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
 
   .figure img {
