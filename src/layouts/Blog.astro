@@ -32,7 +32,7 @@ const { cover, title } = Astro.props.frontmatter;
 
 <style>
   main {
-    max-width: 30rem;
+    max-width: 25rem;
     margin: auto;
   }
 
@@ -46,7 +46,12 @@ const { cover, title } = Astro.props.frontmatter;
   }
 
   .figure img {
-    width: 100%;
+    /* width: 100%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
     border-radius: 20px;
   }
 
