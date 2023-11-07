@@ -1,62 +1,62 @@
 [
   {
     "url": "books/book_1",
-    "bookImg": "/bookPics/book-1.jpg",
+    "bookImg": "/bookPics/book-1.webp",
     "title": "JWQS"
   },
   {
     "url": "books/book_2",
-    "bookImg": "/bookPics/book-2.jpg",
+    "bookImg": "/bookPics/book-2.webp",
     "title": "FGEP"
   },
   {
     "url": "books/book_3",
-    "bookImg": "/bookPics/book-3.jpg",
+    "bookImg": "/bookPics/book-3.webp",
     "title": "Spoil Your Wife Like Your Life Depends On It"
   },
   {
     "url": "books/book_4",
-    "bookImg": "/bookPics/book-4.jpg",
+    "bookImg": "/bookPics/book-4.webp",
     "title": "Her Royal Highness"
   },
   {
     "url": "books/book_5",
-    "bookImg": "/bookPics/book-5.jpg",
+    "bookImg": "/bookPics/book-5.webp",
     "title": "Bloom Into You: Regarding Saeki Sayaka"
   },
   {
     "url": "books/book_6",
-    "bookImg": "/bookPics/book-6.jpg",
+    "bookImg": "/bookPics/book-6.webp",
     "title": "Sonne"
   },
   {
     "url": "books/book_7",
-    "bookImg": "/bookPics/book-7.jpg",
+    "bookImg": "/bookPics/book-7.webp",
     "title": "After Being Bent by Reader"
   },
   {
     "url": "books/book_8",
-    "bookImg": "/bookPics/book-8.jpg",
+    "bookImg": "/bookPics/book-8.webp",
     "title": "My CP Rumor With The Movie Queen Has Gone Viral"
   },
   {
     "url": "books/book_9",
-    "bookImg": "/bookPics/book-9.jpg",
+    "bookImg": "/bookPics/book-9.webp",
     "title": "She Belongs To Me"
   },
   {
     "url": "books/book_10",
-    "bookImg": "/bookPics/book-10.jpg",
+    "bookImg": "/bookPics/book-10.webp",
     "title": "RUZHUI"
   },
   {
     "url": "books/book_11",
-    "bookImg": "/bookPics/book-11.jpg",
+    "bookImg": "/bookPics/book-11.webp",
     "title": "The Time I Found Out the Heroine of a Certain Top Post Was Me"
   },
   {
     "url": "books/book_12",
-    "bookImg": "/bookPics/book-12.jpg",
+    "bookImg": "/bookPics/book-12.webp",
     "title": "The Warmhearted You"
   }
 ]

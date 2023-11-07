@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-4.jpg"
+cover: "/bookPics/book-4.webp"
 title: "Her Royal Highness"
 ---
 

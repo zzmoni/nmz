@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-5.jpg"
+cover: "/bookPics/book-5.webp"
 title: "Bloom Into You: Regarding Saeki Sayaka"
 ---
 

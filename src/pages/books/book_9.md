@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-9.jpg"
+cover: "/bookPics/book-9.webp"
 title: "She Belongs To Me"
 ---
 

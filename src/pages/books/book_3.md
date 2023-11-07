@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-3.jpg"
+cover: "/bookPics/book-3.webp"
 title: "Spoil Your Wife Like Your Life Depends On It"
 ---
 

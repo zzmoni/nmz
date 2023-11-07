@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-6.jpg"
+cover: "/bookPics/book-6.webp"
 title: "Sonne"
 ---
 

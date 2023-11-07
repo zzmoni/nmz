@@ -12,8 +12,7 @@ const { url, bookImg } = Astro.props;
     <a class="cardlink" href={url}>
       <img
         src={bookImg}
-        class="work__picture"
-        alt="#"
+        alt="book"
       />
     </a>
   </div>
@@ -27,7 +26,8 @@ const { url, bookImg } = Astro.props;
   }
 
   .imgDiv img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 20px;
     transition: transform .2s ease;
   }

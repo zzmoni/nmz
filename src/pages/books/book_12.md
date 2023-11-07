@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-12.jpg"
+cover: "/bookPics/book-12.webp"
 title: "The Warmhearted You"
 ---
 

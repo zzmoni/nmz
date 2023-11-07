@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-8.jpg"
+cover: "/bookPics/book-8.webp"
 title: "My CP Rumor With The Movie Queen Has Gone Viral"
 ---
 

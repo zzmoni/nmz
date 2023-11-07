@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-2.jpg"
+cover: "/bookPics/book-2.webp"
 title: "FGEP"
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-10.jpg"
+cover: "/bookPics/book-10.webp"
 title: "RUZHUI"
 ---
 

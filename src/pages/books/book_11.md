@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-11.jpg"
+cover: "/bookPics/book-11.webp"
 title: "The Time I Found Out the Heroine of a Certain Top Post Was Me"
 ---
 

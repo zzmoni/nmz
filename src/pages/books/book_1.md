@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-1.jpg"
+cover: "/bookPics/book-1.webp"
 title: "JWQS"
 ---
 

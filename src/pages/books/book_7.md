@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Blog.astro
-cover: "/bookPics/book-7.jpg"
+cover: "/bookPics/book-7.webp"
 title: "After Being Bent by Reader"
 ---
 
