@@ -8,4 +8,5 @@ title: "JWQS"
 ### novel updates **[here](https://www.novelupdates.com/series/clear-and-muddy-loss-of-love/)**
 ### translation **[here](https://drive.google.com/drive/folders/1GVVb2LGSfKmv7fZh9whXbCIXXohaBCnj)**
 - a masterpiece, no words needed
+- favorite character: _Nangong Jingnu_
 - 11/10

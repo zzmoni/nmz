@@ -6,8 +6,8 @@ import booksPic from "../data/booksPic.json";
 
 <div class="grid">
     {
-      booksPic.map(({ url, bookImg }) => (
-        <BooksCard {url} {bookImg}/>
+      booksPic.map(({ url, bookImg, title }) => (
+        <BooksCard {url} {bookImg} {title}/>
       ))
     }
 </div>
@@ -15,8 +15,8 @@ import booksPic from "../data/booksPic.json";
 <style>
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    align-items:flex-start;
     gap: 20px;
   }
 </style>

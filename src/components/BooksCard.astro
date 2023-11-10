@@ -2,8 +2,9 @@
 export interface Props {
   url: string;
   bookImg: string;
+  title: string;
 }
-const { url, bookImg } = Astro.props;
+const { url, bookImg, title } = Astro.props;
 ---
 
 <!-- when I have a masonry solution (or when grid masonry comes out!) remember to clean up the content class flex -->
@@ -12,10 +13,11 @@ const { url, bookImg } = Astro.props;
     <a class="cardlink" href={url}>
       <img
         src={bookImg}
-        alt="book"
+        alt={title}
         width="300px"
         height="420px"
       />
+      {title}
     </a>
   </div>
 </article>
@@ -24,6 +26,7 @@ const { url, bookImg } = Astro.props;
 <style lang="scss">
   .imgDiv {
     border-radius: 20px;
+    text-align: center;
   }
 
   .cardlink img {
@@ -35,6 +38,18 @@ const { url, bookImg } = Astro.props;
 
   .imgDiv:hover img {
     transform: scale(0.95);
+    // transform: scale(1.05);
+  }
+
+  .cardlink {
+    color: white;
+    text-decoration: none;
+    transition: color .2s ease-in-out;
+    font-size: clamp(0.7rem, 1vw, 1rem);
+  }
+
+  a:hover {
+    color: var(--toggler-color);
   }
 
 </style>
