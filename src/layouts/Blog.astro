@@ -24,7 +24,7 @@ const { cover, title } = Astro.props.frontmatter;
     <Header />
 
     <div>
-      <figure class="figure">
+      <figure class="figure unselectable">
         <img
           src={cover}
           alt={title}
@@ -38,7 +38,7 @@ const { cover, title } = Astro.props.frontmatter;
 
 <style>
   main {
-    max-width: 25rem;
+    max-width: 50rem;
     margin: auto;
   }
 
@@ -52,7 +52,6 @@ const { cover, title } = Astro.props.frontmatter;
   }
 
   .figure img {
-    /* width: 100%; */
     display: block;
     margin-left: auto;
     margin-right: auto;

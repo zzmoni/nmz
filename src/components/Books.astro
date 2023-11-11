@@ -4,7 +4,7 @@ import BooksCard from "./BooksCard.astro";
 import booksPic from "../data/booksPic.json";
 ---
 
-<div class="grid">
+<div class="grid unselectable">
     {
       booksPic.map(({ url, bookImg, title }) => (
         <BooksCard {url} {bookImg} {title}/>
