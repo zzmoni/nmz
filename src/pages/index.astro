@@ -1,17 +1,18 @@
 ---
 import Main from "../layouts/Main.astro";
 import Books from "../components/Books.astro";
+import Footer from "../components/Footer.astro";
 
-const profilePicture = "/logo.svg";
+const homePicture = "/logo.svg";
 ---
 
 <Main title="zzm">
-  <div class="profile__details unselectable">
-    <div class="profile">
+  <div class="home__details unselectable">
+    <div class="home">
       <a class="pic" href="/">
         <img
-          src={profilePicture}
-          class="profile__picture"
+          src={homePicture}
+          class="home__picture"
           alt="logo"
           width="80px"
           height="80px"
@@ -31,14 +32,16 @@ const profilePicture = "/logo.svg";
 
   <Books />
 
+  <Footer />
+
 </Main>
 
 <style>
-  .profile {
+  .home {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 5rem 0 3rem 0;
+    padding: 3rem 0 3rem 0;
   }
 
   .main_content h1 {
@@ -50,12 +53,11 @@ const profilePicture = "/logo.svg";
     margin-top: 0;
   }
 
-  .profile__details {
+  .home__details {
     flex: 1 0 300px;
   }
 
-  .profile__picture {
-    /* border-radius: 50%; */
+  .home__picture {
     margin: 0 0.5rem 1rem 0;
   }
 
