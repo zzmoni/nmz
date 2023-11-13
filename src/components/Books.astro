@@ -6,17 +6,23 @@ import booksPic from "../data/booksPic.json";
 
 <div class="grid unselectable">
     {
-      booksPic.map(({ url, bookImg, title }) => (
-        <BooksCard {url} {bookImg} {title}/>
+      booksPic.map(({ url, bookImg }) => (
+        <BooksCard {url} {bookImg}/>
       ))
     }
 </div>
 
 <style>
   .grid {
+    max-width: 35rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
-    align-items:flex-start;
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+    align-items: flex-start;
+    gap: 15px;
   }
 </style>

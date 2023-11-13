@@ -9,23 +9,21 @@ const homePicture = "/logo.svg";
 <Main title="zzm">
   <div class="home__details unselectable">
     <div class="home">
-      <a class="pic" href="/">
-        <img
-          src={homePicture}
-          class="home__picture"
-          alt="logo"
-          width="80px"
-          height="80px"
-        />
-      </a>
-       <div class="main_content">
-         <h1>hello!</h1>
-       </div>
+      <img
+        src={homePicture}
+        class="home__picture"
+        alt="logo"
+        width="80px"
+        height="80px"
+      />
+      <div class="main_content">
+        <h1>GL books</h1>
+      </div>
     </div>
 
     <div class="books">
       <p>
-        ✿ gl books i've read ✿
+        ✿ what i've read ✿
       </p>
     </div>
   </div>
@@ -38,14 +36,14 @@ const homePicture = "/logo.svg";
 
 <style>
   .home {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 3rem 0 3rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem 0 2rem 0;
   }
 
   .main_content h1 {
-    font-size: clamp(3rem, 3vw, 3.5rem);
+    font-size: clamp(2rem, 2.5vw, 3rem);
   }
 
   .main_content > h1, .books p {
@@ -55,6 +53,7 @@ const homePicture = "/logo.svg";
 
   .home__details {
     flex: 1 0 300px;
+    text-align: center;
   }
 
   .home__picture {
@@ -62,7 +61,7 @@ const homePicture = "/logo.svg";
   }
 
   .books p {
-    font-size: clamp(1.35rem, 3vw, 2rem);
+    font-size: clamp(1.1rem, 2vw, 1.8rem);
   }
 
   a {
@@ -76,6 +75,7 @@ const homePicture = "/logo.svg";
   .pic {
     padding: 0;
     border-radius: 0;
+    height: 0px;
   }
 
 </style>

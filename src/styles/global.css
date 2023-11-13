@@ -3,9 +3,21 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
-  padding: 0 0.5rem;
-  color: var(--grey-600);
-  background: var(--background);
+  /* padding: 0 0.5rem; */
+  padding: 2rem 0.5rem;
+  color: white;
+  /* background: var(--background); */
+
+
+
+  background-image: url("/bg.png");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -41,9 +53,7 @@ body {
 
 html {
   --background: #1d1f20;
-  --grey-200: #eaeaea;
-  --grey-600: #ffffff;
-  --grey-900: #fafafa;
+  --background-glass: rgba(255,255,255,0.08);
 
   --toggler-color:#6b6b6b;
   --blue-green: #2aa87c;
@@ -54,7 +64,7 @@ a {
 }
 
 a:hover {
-  color: var(--grey-900);
+  color: white;
 }
 
 h1 {
