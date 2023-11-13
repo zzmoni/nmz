@@ -1,24 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
 
-body {
+html, body {
   font-family: 'Roboto Mono', monospace;
-  /* padding: 0 0.5rem; */
   padding: 2rem 0.5rem;
   color: white;
-  /* background: var(--background); */
+  background: var(--background);
 
 
 
-  background-image: url("/bg.webp");
-
-  min-height: 500px;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  background: url("/bg.webp") no-repeat center center fixed;
+  background-size: 100% 100%;
 }
 
 
