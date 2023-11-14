@@ -6,8 +6,9 @@ html, body {
   padding: 2rem 0.5rem;
   color: white;
 
-  background: rgb(75,51,72);
-  background: linear-gradient(0deg, rgba(75,51,72,1) 0%, rgba(31,24,83,1) 100%);
+  background: var(--background);
+  /* background: rgb(75,51,72);
+  background: linear-gradient(0deg, rgba(75,51,72,1) 0%, rgba(31,24,83,1) 100%); */
 }
 
 
