@@ -5,15 +5,9 @@ html, body {
   font-family: 'Roboto Mono', monospace;
   padding: 2rem 0.5rem;
   color: white;
-  background: var(--background);
 
-  background-image: url("/bg.webp");
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  overflow-y: scroll;
+  background: rgb(75,51,72);
+  background: linear-gradient(0deg, rgba(75,51,72,1) 0%, rgba(31,24,83,1) 100%);
 }
 
 
@@ -89,6 +83,7 @@ li {
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: none;
+  background: var(--background);
 }
 
 ::-webkit-scrollbar-thumb {
