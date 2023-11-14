@@ -1,23 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
 
-html, body {
+body {
   font-family: 'Roboto Mono', monospace;
   padding: 2rem 0.5rem;
   color: white;
 
   background: var(--background);
-  /* background: rgb(75,51,72);
-  background: linear-gradient(0deg, rgba(75,51,72,1) 0%, rgba(31,24,83,1) 100%); */
-}
 
-
-/* fade onload */
-body {
-  animation: fadeInAnimation ease 1s;
+  /* fade onload */
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
@@ -89,7 +85,6 @@ li {
 
 ::-webkit-scrollbar-thumb {
   background: #2aa87c80;
-  /* background: rgb(231, 229, 229, 0.5); */
   -webkit-box-shadow: none;
   border-radius: 20px;
 }
