@@ -51,7 +51,8 @@ html {
   --background-glass: rgba(255,255,255,0.08);
 
   --toggler-color:#6b6b6b;
-  --blue-green: #2aa87c;
+  --blue-green: #1dc288;
+  /* --blue-green: #2aa87c; */
 }
 
 a {
