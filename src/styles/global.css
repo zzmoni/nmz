@@ -59,7 +59,7 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: var(--toggler-color);
 }
 
 h1 {

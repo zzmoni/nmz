@@ -1,6 +1,7 @@
 ---
 import Main from "../layouts/Main.astro";
 import Books from "../components/Books.astro";
+import Reading from "../components/Reading.astro";
 import Footer from "../components/Footer.astro";
 
 const homePicture = "/adashima.svg";
@@ -37,7 +38,7 @@ const homePicture = "/adashima.svg";
       <Books />
     </div>
     <div class="book reading">
-      <p>in progress</p>
+      <Reading />
     </div>
   </div>
 
@@ -140,11 +141,6 @@ const homePicture = "/adashima.svg";
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 0.5s;
-  }
-
-  .reading {
-    padding: 5rem;
-    text-align: center;
   }
 
   #sort-completed:checked ~ .books .book[class*="completed"] {
