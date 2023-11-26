@@ -1,0 +1,49 @@
+---
+export interface Props {
+  url: string;
+  title: string;
+  author: string;
+  yearFinished: string;
+}
+const { url, title, author, yearFinished} = Astro.props;
+---
+
+<div class="listContainer">
+  <table>
+    <tr>
+      <td class="title"><a href={url}>{title}</a></td>
+      <td class="author">{author}</td>
+      <td class="year">{yearFinished}</td>
+    </tr>
+  </table>
+</div>
+
+<style>
+  a {
+    text-decoration: none;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: clamp(0.7rem, 0.95vw, 2rem);
+  }
+
+  td {
+    border-bottom: 1px solid var(--background-glass);
+    text-align: left;
+    padding: 0.5rem;
+  }
+
+  .title {
+    width: 50%;
+  }
+
+  .author {
+    width: 30%;
+  }
+
+  .year {
+    width: 20%;
+  }
+</style>

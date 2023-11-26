@@ -1,0 +1,104 @@
+---
+import Books from "../components/Books.astro";
+import ListBooks from "../components/ListBooks.astro";
+---
+
+<input class="check" type="radio" name="view" id="sort-bookImg" checked>
+<input class="check" type="radio" name="view" id="sort-bookList">
+
+<div class="viewSorter unselectable">
+  <div class="menu">
+      <label for="sort-bookImg">🕮</label>
+      <label for="sort-bookList">☰</label>
+  </div>
+</div>
+
+<div class="views">
+  <div class="view bookImg">
+    <Books />
+  </div>
+  <div class="view bookList">
+    <ListBooks />
+  </div>
+</div>
+
+
+<style>
+  .viewSorter {
+    padding-bottom: 1rem;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+	  width: 100%;
+    gap: 15px;
+  }
+
+  label {
+    font-size: clamp(0.8rem, 1vw, 1.3rem);
+    cursor: pointer;
+    padding: 0.2rem 0.6rem;
+    position: relative;
+    border: 1px solid var(--background-glass);
+    &::before,
+    &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-color: var(--blue-green);
+      border-radius: 1px;
+      border-style: solid;
+      transition: all 0.35s;
+      content: "";
+      z-index: 1;
+    }
+    &::before {
+      width: 0;
+      height: 100%;
+      border-width: 1px 0 1px 0;
+    }
+    &::after {
+      width: 100%;
+      height: 0;
+      border-width: 0 1px 0 1px;
+    }
+  }
+
+  label:hover {
+    border-color: var(--blue-green);
+    color: var(--blue-green);
+    &::before {
+      width: 100%;
+      border-width: 1px 0 1px 0;
+    }
+    &::after {
+      height: 100%;
+      border-width: 0 1px 0 1px;
+    }
+  }
+
+  input.check {
+	  display: none;
+  }
+
+  .views .view {
+    display: none;
+
+    opacity: 1;
+
+    animation-name: fadeInAnimation;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+  }
+
+  /* list view */
+  #sort-bookImg:checked ~ .views .view[class*="bookImg"] {
+    display: block;
+  }
+
+  #sort-bookList:checked ~ .views .view[class*="bookList"] {
+    display: block;
+  }
+</style>

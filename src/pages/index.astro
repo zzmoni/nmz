@@ -1,8 +1,10 @@
 ---
 import Main from "../layouts/Main.astro";
-import Books from "../components/Books.astro";
 import Reading from "../components/Reading.astro";
 import Footer from "../components/Footer.astro";
+import ViewSorter from "../components/ViewSorter.astro";
+import Books from "../components/Books.astro";
+import ListBooks from "../components/ListBooks.astro";
 
 const homePicture = "/adashima.svg";
 ---
@@ -23,23 +25,26 @@ const homePicture = "/adashima.svg";
     </div>
   </div>
 
+  <!-- sort complete and reading -->
   <input class="check" type="radio" name="sort" id="sort-completed" checked>
 	<input class="check" type="radio" name="sort" id="sort-reading">
 
   <div class="bookSorter unselectable">
     <div class="menu">
-        <label for="sort-completed">completed</label>
-        <label for="sort-reading">reading</label>
+      <label for="sort-completed">completed</label>
+      <label for="sort-reading">reading</label>
     </div>
   </div>
 
   <div class="books">
-    <div class="book completed">
-      <Books />
-    </div>
     <div class="book reading">
       <Reading />
     </div>
+    
+    <div class="book completed">
+      <ViewSorter />
+    </div>
+
   </div>
 
   <Footer />
@@ -67,11 +72,6 @@ const homePicture = "/adashima.svg";
     flex: 1 0 300px;
     text-align: center;
   }
-
-  .home__picture {
-    margin: 0 0.5rem 1rem 0;
-  }
-
 
   /* sort */
   .bookSorter {
@@ -132,7 +132,7 @@ const homePicture = "/adashima.svg";
 	  display: none;
   }
 
-  .books .book {
+  .books .book, .views .view {
     display: none;
 
     opacity: 1;
@@ -143,6 +143,7 @@ const homePicture = "/adashima.svg";
     animation-duration: 0.5s;
   }
 
+  /* sort complete and reading */
   #sort-completed:checked ~ .books .book[class*="completed"] {
     display: block;
   }

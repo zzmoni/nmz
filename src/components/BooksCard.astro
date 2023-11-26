@@ -3,10 +3,9 @@ export interface Props {
   url: string;
   bookImg: string;
 }
-const { url, bookImg} = Astro.props;
+const { url, bookImg } = Astro.props;
 ---
 
-<!-- when I have a masonry solution (or when grid masonry comes out!) remember to clean up the content class flex -->
 <article class="card">
   <div class="imgDiv">
     <a class="cardlink" href={url}>

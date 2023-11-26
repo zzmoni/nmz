@@ -3,72 +3,84 @@
     "url": "books/book_1",
     "bookImg": "/bookPics/book-1.webp",
     "title": "JWQS",
-    "yearFinished": 2022
+    "author": "请君莫笑",
+    "yearFinished": "2022"
   },
   {
     "url": "books/book_2",
     "bookImg": "/bookPics/book-2.webp",
     "title": "FGEP",
-    "yearFinished": 2022
+    "author": "请君莫笑",
+    "yearFinished": "2022"
   },
   {
     "url": "books/book_3",
     "bookImg": "/bookPics/book-3.webp",
     "title": "Spoil Your Wife Like Your Life Depends On It",
-    "yearFinished": 2023
+    "author": "魅骨",
+    "yearFinished": "2023"
   },
   {
     "url": "books/book_4",
     "bookImg": "/bookPics/book-4.webp",
     "title": "Her Royal Highness",
-    "yearFinished": 2022
+    "author": "Rachel Hawkins",
+    "yearFinished": "2022"
   },
   {
     "url": "books/book_5",
     "bookImg": "/bookPics/book-5.webp",
     "title": "Bloom Into You: Regarding Saeki Sayaka",
-    "yearFinished": 2021
+    "author": "Hitoma Iruma",
+    "yearFinished": "2021"
   },
   {
     "url": "books/book_6",
     "bookImg": "/bookPics/book-6.webp",
     "title": "Sonne",
-    "yearFinished": 2023
+    "author": "ひのはら",
+    "yearFinished": "2023"
   },
   {
     "url": "books/book_7",
     "bookImg": "/bookPics/book-7.webp",
     "title": "After Being Bent by Reader",
-    "yearFinished": 2023
+    "author": "逆签",
+    "yearFinished": "2023"
   },
   {
     "url": "books/book_8",
     "bookImg": "/bookPics/book-8.webp",
     "title": "My CP Rumor With The Movie Queen Has Gone Viral",
-    "yearFinished": 2023
+    "author": "辞旧迎卿",
+    "yearFinished": "2023"
   },
   {
     "url": "books/book_9",
     "bookImg": "/bookPics/book-9.webp",
     "title": "She Belongs To Me",
-    "yearFinished": 2023
+    "author": "妲婴",
+    "yearFinished": "2023"
   },
   {
     "url": "books/book_10",
     "bookImg": "/bookPics/book-10.webp",
     "title": "RUZHUI",
-    "yearFinished": 2023
+    "author": "请君莫笑",
+    "yearFinished": "2023"
   },
   {
     "url": "books/book_11",
     "bookImg": "/bookPics/book-11.webp",
     "title": "The Time I Found Out the Heroine of a Certain Top Post Was Me",
-    "yearFinished": 2023
+    "author": "一只花夹子",
+    "yearFinished": "2023"
   },
   {
     "url": "books/book_12",
     "bookImg": "/bookPics/book-12.webp",
     "title": "The Warmhearted You",
-    "yearFinished": 2023
+    "author": "讨酒的叫花子",
+    "yearFinished": "2023"
   }
 ]

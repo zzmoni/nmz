@@ -1,0 +1,46 @@
+---
+import ListView from "./ListView.astro";
+
+import booksPic from "../data/booksPic.json";
+---
+
+<div class="unselectable">
+  <table>
+    <tr>
+      <th class="title">title</th>
+      <th class="author">author</th>
+      <th class="year">year finished</th>
+    </tr>
+    {
+      booksPic.map(({ url, title, author, yearFinished }) => (
+        <ListView {url} {title} {author} {yearFinished}/>
+      ))
+    }
+  </table>
+</div>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th {
+    border-bottom: 3px solid var(--background-glass);
+    text-align: left;
+    font-size: clamp(0.75rem, 1vw, 2rem);
+    padding: 0.5rem;
+  }
+
+  .title {
+    width: 50%;
+  }
+
+  .author {
+    width: 30%;
+  }
+
+  .year {
+    width: 20%;
+  }
+</style>
