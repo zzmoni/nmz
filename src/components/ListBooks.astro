@@ -9,7 +9,7 @@ import booksPic from "../data/booksPic.json";
     <tr>
       <th class="title">title</th>
       <th class="author">author</th>
-      <th class="year">year finished</th>
+      <th class="year">finished on</th>
     </tr>
     {
       booksPic.map(({ url, title, author, yearFinished }) => (
@@ -33,14 +33,10 @@ import booksPic from "../data/booksPic.json";
   }
 
   .title {
-    width: 50%;
+    width: 40%;
   }
 
-  .author {
+  .author, .year {
     width: 30%;
-  }
-
-  .year {
-    width: 20%;
   }
 </style>
