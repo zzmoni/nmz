@@ -8,7 +8,7 @@ export interface Props {
 const { url, title, author, yearFinished} = Astro.props;
 ---
 
-<div class="listContainer">
+<div class="listContainer unselectable">
   <table>
     <tr>
       <td class="title"><a href={url}>{title}</a></td>

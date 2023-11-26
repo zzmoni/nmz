@@ -2,85 +2,85 @@
   {
     "url": "books/book_1",
     "bookImg": "/bookPics/book-1.webp",
-    "title": "JWQS",
-    "author": "请君莫笑",
-    "yearFinished": "Sept 07 2022"
+    "title": "Bloom Into You: Regarding Saeki Sayaka",
+    "author": "Hitoma Iruma",
+    "yearFinished": "2022"
   },
   {
     "url": "books/book_2",
     "bookImg": "/bookPics/book-2.webp",
-    "title": "FGEP",
-    "author": "请君莫笑",
-    "yearFinished": "Jan 26 2023"
+    "title": "Her Royal Highness",
+    "author": "Rachel Hawkins",
+    "yearFinished": "08/14/22"
   },
   {
     "url": "books/book_3",
     "bookImg": "/bookPics/book-3.webp",
-    "title": "Spoil Your Wife Like Your Life Depends On It",
-    "author": "魅骨",
-    "yearFinished": "Aug 2023"
+    "title": "JWQS",
+    "author": "请君莫笑",
+    "yearFinished": "09/07/22"
   },
   {
     "url": "books/book_4",
     "bookImg": "/bookPics/book-4.webp",
-    "title": "Her Royal Highness",
-    "author": "Rachel Hawkins",
-    "yearFinished": "Aug 14 2022"
+    "title": "FGEP",
+    "author": "请君莫笑",
+    "yearFinished": "01/26/23"
   },
   {
     "url": "books/book_5",
     "bookImg": "/bookPics/book-5.webp",
-    "title": "Bloom Into You: Regarding Saeki Sayaka",
-    "author": "Hitoma Iruma",
-    "yearFinished": "2021"
+    "title": "Sonne",
+    "author": "ひのはら",
+    "yearFinished": "02/2023"
   },
   {
     "url": "books/book_6",
     "bookImg": "/bookPics/book-6.webp",
-    "title": "Sonne",
-    "author": "ひのはら",
-    "yearFinished": "2023"
+    "title": "Spoil Your Wife Like Your Life Depends On It",
+    "author": "魅骨",
+    "yearFinished": "08/2023"
   },
   {
     "url": "books/book_7",
     "bookImg": "/bookPics/book-7.webp",
     "title": "After Being Bent by Reader",
     "author": "逆签",
-    "yearFinished": "Aug 08 2023"
+    "yearFinished": "08/08/23"
   },
   {
     "url": "books/book_8",
     "bookImg": "/bookPics/book-8.webp",
     "title": "My CP Rumor With The Movie Queen Has Gone Viral",
     "author": "辞旧迎卿",
-    "yearFinished": "Aug 15 2023"
+    "yearFinished": "08/15/23"
   },
   {
     "url": "books/book_9",
     "bookImg": "/bookPics/book-9.webp",
     "title": "She Belongs To Me",
     "author": "妲婴",
-    "yearFinished": "Sept 09 2023"
+    "yearFinished": "09/09/23"
   },
   {
     "url": "books/book_10",
     "bookImg": "/bookPics/book-10.webp",
     "title": "RUZHUI",
     "author": "请君莫笑",
-    "yearFinished": "Sept 27 2023"
+    "yearFinished": "09/27/23"
   },
   {
     "url": "books/book_11",
     "bookImg": "/bookPics/book-11.webp",
     "title": "The Time I Found Out the Heroine of a Certain Top Post Was Me",
     "author": "一只花夹子",
-    "yearFinished": "Sept 28 2023"
+    "yearFinished": "09/28/23"
   },
   {
     "url": "books/book_12",
     "bookImg": "/bookPics/book-12.webp",
     "title": "The Warmhearted You",
     "author": "讨酒的叫花子",
-    "yearFinished": "Sept 28 2023"
+    "yearFinished": "09/28/23"
   }
 ]

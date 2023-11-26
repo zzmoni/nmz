@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/Blog.astro
 cover: "/bookPics/book-1.webp"
-title: "JWQS"
+title: "Bloom Into You: Regarding Saeki Sayaka"
 ---
 
-# JWQS - Clear and muddy loss of love by 请君莫笑 PDL
-### novel updates **[here](https://www.novelupdates.com/series/clear-and-muddy-loss-of-love/)**
-### translation **[here](https://drive.google.com/drive/folders/1GVVb2LGSfKmv7fZh9whXbCIXXohaBCnj)**
-- a masterpiece, no words needed
-- favorite character: _Nangong Jingnu_
-- 11/10
+# Bloom Into You: Regarding Saeki Sayaka by Hitoma Iruma
+### goodreads **[here](https://www.goodreads.com/en/book/show/49882195)**
+### seven seas **[here](https://sevenseasentertainment.com/series/bloom-into-you-light-novel/)**
+- absolutely relatable, want more of Haru and Sayaka
+- favorite character: _Saeki Sayaka_
+- 10/10

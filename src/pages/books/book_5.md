@@ -1,12 +1,11 @@
 ---
 layout: ../../layouts/Blog.astro
 cover: "/bookPics/book-5.webp"
-title: "Bloom Into You: Regarding Saeki Sayaka"
+title: "Sonne"
 ---
 
-# Bloom Into You: Regarding Saeki Sayaka by Hitoma Iruma
-### goodreads **[here](https://www.goodreads.com/en/book/show/49882195)**
-### seven seas **[here](https://sevenseasentertainment.com/series/bloom-into-you-light-novel/)**
-- absolutely relatable, want more of Haru and Sayaka
-- favorite character: _Saeki Sayaka_
-- 10/10
+# Sonne by ひのはら Hinohara
+### novel updates **[here](https://www.novelupdates.com/series/sonne/)**
+### translation **[here](https://www.wattpad.com/story/332825167-sonne)**
+- cute and weird, many unnecessary stuff, it was rushed
+- 5/10
