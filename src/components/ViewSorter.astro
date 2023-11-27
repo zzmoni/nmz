@@ -8,8 +8,12 @@ import ListBooks from "../components/ListBooks.astro";
 
 <div class="viewSorter unselectable">
   <div class="menu">
-      <label for="sort-bookImg">cover</label>
-      <label for="sort-bookList">table</label>
+    <label for="sort-bookImg">
+      <i class="fa-solid fa-book"></i>
+    </label>
+    <label for="sort-bookList">
+      <i class="fa-solid fa-bars"></i>
+    </label>
   </div>
 </div>
 
@@ -30,6 +34,7 @@ import ListBooks from "../components/ListBooks.astro";
 
   .menu {
     display: flex;
+    text-align: center;
     justify-content: center;
 	  width: 100%;
     gap: 15px;
@@ -76,6 +81,10 @@ import ListBooks from "../components/ListBooks.astro";
       height: 100%;
       border-width: 0 1px 0 1px;
     }
+  }
+
+  i:hover {
+    color: var(--blue-green);
   }
 
   input.check {
