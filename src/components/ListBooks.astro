@@ -7,9 +7,9 @@ import booksPic from "../data/booksPic.json";
 <div class="unselectable">
   <table>
     <tr>
-      <th class="title">title</th>
-      <th class="author">author</th>
-      <th class="year">date finished</th>
+      <th class="title">Title</th>
+      <th class="author">Author</th>
+      <th class="year">Date finished</th>
     </tr>
     {
       booksPic.map(({ url, title, author, yearFinished }) => (
@@ -25,18 +25,25 @@ import booksPic from "../data/booksPic.json";
     width: 100%;
   }
 
-  th {
+  tr {
     border-bottom: 3px solid var(--background-glass);
+    font-size: clamp(0.75rem, 0.95vw, 2rem);
     text-align: left;
-    font-size: clamp(0.75rem, 1vw, 2rem);
-    padding: 0.5rem;
+  }
+
+  th {
+    padding: 0.7rem 0.1rem;
   }
 
   .title {
-    width: 40%;
+    width: 60%;
   }
 
   .author, .year {
-    width: 30%;
+    width: 20%;
+  }
+
+  .year {
+    text-align: right;
   }
 </style>

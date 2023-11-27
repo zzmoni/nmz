@@ -25,23 +25,30 @@ const { url, title, author, yearFinished} = Astro.props;
 
   table {
     border-collapse: collapse;
+    font-size: clamp(0.7rem, 0.9vw, 2rem);
     width: 100%;
-    font-size: clamp(0.7rem, 0.95vw, 2rem);
   }
 
-  td {
+  tr {
     border-bottom: 1px solid var(--background-glass);
     text-align: left;
     padding: 0.5rem;
   }
 
+  td {
+    padding: 0.7rem 0.1rem;
+  }
+
   .title {
-    width: 40%;
+    width: 60%;
   }
 
   .author, .year {
-    width: 30%;
+    width: 20%;
   }
 
+  .year {
+    text-align: right;
+  }
 
 </style>

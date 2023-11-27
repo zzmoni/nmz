@@ -46,7 +46,8 @@ body {
 
 
 html {
-  --background: #1d1f20;
+  /* --background: #1d1f20; */
+  --background: #303334;
   --background-glass: rgba(255,255,255,0.08);
 
   --toggler-color:#6b6b6b;
