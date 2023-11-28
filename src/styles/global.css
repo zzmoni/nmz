@@ -1,12 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
+html {
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-image: var(--background-gradient); */
+  background: linear-gradient(315deg,#1a4e38,#121e32,#065b33);
+  background-size: 180% 180%;
+  animation: gradient-animation 12s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 body {
   font-family: 'Roboto Mono', monospace;
   padding: 2rem 0.5rem;
   color: white;
 
-  background: var(--background);
+  /* background: var(--background); */
 
   /* fade onload */
   opacity: 1;
@@ -49,6 +72,7 @@ html {
   /* --background: #1d1f20; */
   --background: #303334;
   --background-glass: rgba(255,255,255,0.08);
+  --background-gradient: linear-gradient(to top, #121e32, #003349, #004958, #005f5b, #277453);
 
   --toggler-color:#6b6b6b;
   --blue-green: #1dc288;
