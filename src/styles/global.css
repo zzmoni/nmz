@@ -7,7 +7,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   background: #121e32;
-  background-image: linear-gradient(315deg,#174431,#121e32,#044c2b);
+  background-image: linear-gradient(315deg,#184935,#121e32,#065b35);
   background-size: 180% 180%;
   animation: gradient-animation 12s ease infinite;
 }
@@ -73,8 +73,8 @@ html {
   /* --background-gradient: linear-gradient(to top, #121e32, #003349, #004958, #005f5b, #277453); */
 
   --toggler-color:#6b6b6b;
-  /* --blue-green: #1dc288; */
-  --blue-green: #25de9e;
+  --blue-green: #1dc288;
+  /* --blue-green: #25de9e; */
   /* --blue-green: #2aa87c; */
 }
 
