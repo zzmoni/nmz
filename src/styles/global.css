@@ -26,7 +26,8 @@ html {
 
 body {
   font-family: 'Roboto Mono', monospace;
-  padding: 2rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  padding-bottom: 1rem;
   color: white;
 
   /* fade onload */
