@@ -95,7 +95,7 @@ h3 {
 }
 
 p, li {
-  font-size: clamp(0.6rem, 0.9vw, 1rem);
+  font-size: clamp(0.65rem, 0.95vw, 1rem);
   color: var(--grey-900);
 }
 
