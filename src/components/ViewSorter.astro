@@ -1,6 +1,8 @@
 ---
 import Books from "../components/Books.astro";
 import ListBooks from "../components/ListBooks.astro";
+
+// import { Icon } from 'astro-icon';
 ---
 
 <input class="check" type="radio" name="view" id="sort-bookImg" checked>
@@ -9,9 +11,11 @@ import ListBooks from "../components/ListBooks.astro";
 <div class="viewSorter unselectable">
   <div class="menu">
     <label for="sort-bookImg">
+      <!-- <Icon name="mdi:book"/> -->
       <i class="fa-solid fa-book"></i>
     </label>
     <label for="sort-bookList">
+      <!-- <Icon name="ion:list"/> -->
       <i class="fa-solid fa-bars"></i>
     </label>
   </div>
@@ -81,10 +85,6 @@ import ListBooks from "../components/ListBooks.astro";
       height: 100%;
       border-width: 0 1px 0 1px;
     }
-  }
-
-  i:hover {
-    color: var(--blue-green);
   }
 
   input.check {
