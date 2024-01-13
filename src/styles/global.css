@@ -92,6 +92,14 @@ h1 {
 
 h3 {
   font-size: clamp(0.70rem, 1vw, 2.5rem);
+  text-align: center;
+
+  border: 1px solid var(--background-glass);
+}
+
+h3:hover {
+  color: var(--blue-green);
+  border: 1px solid var(--blue-green);
 }
 
 p, li {
