@@ -84,6 +84,7 @@ a {
 
 a:hover {
   color: var(--toggler-color);
+  text-decoration: none;
 }
 
 h1 {
