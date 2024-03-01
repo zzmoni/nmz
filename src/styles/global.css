@@ -8,6 +8,7 @@ html {
   background-size: cover;
   background: #121e32;
   background-image: linear-gradient(315deg,#1e5b43,#121e32,#065b35);
+  /* background-image: linear-gradient(315deg,#153e2d,#121e32,#04301c); */
   background-size: 180% 180%;
   animation: gradient-animation 12s ease infinite;
 }

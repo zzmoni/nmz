@@ -9,4 +9,4 @@ title: "After Being Bent by Reader"
 ### **[translation](https://hostednovel.com/novel/after-being-bent-by-reader)**
 - I love LOVE this, my most enjoyable read this year(2023) 🥹 im a sucker for tooth-rotting fluff with fleshed out characters, the side couple was really well done.
 - favorite character: _Fang Qin_
-- 9/10
+- 10/10
