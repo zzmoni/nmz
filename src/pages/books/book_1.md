@@ -4,7 +4,7 @@ cover: "/bookPics/book-1.webp"
 title: "Bloom Into You: Regarding Saeki Sayaka"
 ---
 
-# Bbloom Into You: Regarding Saeki Sayaka by Hitoma Iruma
+# Bloom Into You: Regarding Saeki Sayaka by Hitoma Iruma
 ### **[goodreads](https://www.goodreads.com/en/book/show/49882195)**
 ### **[seven seas](https://sevenseasentertainment.com/series/bloom-into-you-light-novel/)**
 - VERY relatable, I want more of Haru and Sayaka.
