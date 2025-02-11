@@ -8,4 +8,4 @@ title: "Breaking Character"
 ### **[goodreads](https://www.goodreads.com/book/show/41662515-breaking-character)**
 ### **[amazon](https://www.amazon.com/Breaking-Character-Lee-Winter/dp/3963241136)**
 - ice queen x sunshine
-- 10/10
+- 9/10
